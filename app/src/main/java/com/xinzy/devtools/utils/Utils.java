@@ -3,20 +3,17 @@ package com.xinzy.devtools.utils;
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import com.xinzy.devtools.constant.Macro;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
 /**
- * Created by YANGSHAOZENG227 on 2017-01-09.
+ * Created by Xinzy on 2017-01-09.
  *
  */
 public class Utils
 {
-
 
     public static String read(@NonNull Context context, String name)
     {
@@ -32,10 +29,7 @@ public class Utils
             }
         } catch (IOException e)
         {
-            if (Macro.DEBUG)
-            {
-                e.printStackTrace();
-            }
+            Logger.e("Read assets fail", e);
         }
 
         return sb.toString();

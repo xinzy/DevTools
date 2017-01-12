@@ -1,3 +1,41 @@
 <resources>
     <string name="app_name">开发助手</string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="accessibility_label">DevTools 开发者工具</string>
+    <string name="accessibility_description">我们使用此功能以快速自动打开或关闭一些开发者选项，从而节省您的时间。\n\n提示：开启此功能时，会收到系统的警示提醒，这是系统对任何使用此功能应用的例行提醒。\n\n我们只会检测您在“设置-开发者选项”这一个页面的点击，我们承诺不会收集您的任何信息，请放心开启。</string>
+    <string name="accessibility_apply">无障碍服务申请</string>
+    <string name="accessibility_permission">我们需要“无障碍服务”以快速自动打开或关闭一些开发者选项，从而节省您的时间。\n\n请在接下来的页面点击“%1$s”进入具体授权页面。</string>
+
+    <string name="tool_group_debug">调试相关</string>
+    <string name="tool_debug_layout_bounds">布局边界</string>
+    <string name="tool_debug_surface_update">布局更新</string>
+    <string name="tool_debug_force_gpu_rendering">强制 GPU 渲染</string>
+    <string name="tool_debug_gpu_view_update">GPU 视图更新</string>
+    <string name="tool_debug_pointer_location">指针位置</string>
+    <string name="tool_debug_strict_mode">严格模式</string>
+    <string name="tool_debug_dont_keep_activities">不保留应用</string>
+    <string name="tool_debug_stay_awake">不锁定屏幕</string>
+    <string name="tool_debug_usb_debugging">USB 调试</string>
+    <string name="tool_debug_dev_options">开发者选项</string>
+    <string name="tool_debug_settings">系统设置</string>
+    <string name="tool_debug_locale_settings">语言设置</string>
+
+    <string name="tool_group_ui">UI 相关</string>
+    <string name="tool_ui_screen_info">屏幕信息</string>
+    <string name="tool_ui_standard_size">标准尺寸</string>
+
+    <string name="tool_group_info">信息</string>
+    <string name="tool_info_system">系统</string>
+    <string name="tool_info_hardware">硬件</string>
+    <string name="tool_info_vm">虚拟机</string>
+    <string name="tool_info_network">网络相关</string>
+    <string name="tool_info_id">那些 ID</string>
+    <string name="tool_info_cpu">CPU</string>
+    <string name="tool_info_my_apps">我的应用</string>
+
+    <string name="tool_group_other">其他</string>
+    <string name="tool_debug_demo_mode">演示模式</string>
 </resources>

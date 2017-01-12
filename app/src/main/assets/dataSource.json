@@ -1,96 +1,137 @@
 [
 	{
-		"title":"调试相关"
+		"title":"tool_group_debug"
 	},
 	{
-		"title":"布局边界",
-		"drawable":"R.drawable.debug_layout_bounds"
+		"title":"tool_debug_layout_bounds",
+		"drawable":"debug_layout_bounds",
+		"action":"ASSIST",
+		"target":""
 	},
 	{
-		"title":"布局更新",
-		"drawable":"R.drawable.debug_surface_update"
+		"title":"tool_debug_surface_update",
+		"drawable":"debug_surface_update",
+		"action":"ASSIST",
+		"target":""
 	},
 	{
-		"title":"强制GPU渲染",
-		"drawable":"R.drawable.debug_gpu_rending"
+		"title":"tool_debug_force_gpu_rendering",
+		"drawable":"debug_gpu_rending",
+		"action":"ASSIST",
+		"target":""
 	},
 	{
-		"title":"GPU试图更新",
-		"drawable":"R.drawable.debug_gpu_view_update"
+		"title":"tool_debug_gpu_view_update",
+		"drawable":"debug_gpu_view_update",
+		"action":"ASSIST",
+		"target":""
 	},
 	{
-		"title":"指针位置",
-		"drawable":"R.drawable.debug_pointer_location"
+		"title":"tool_debug_pointer_location",
+		"drawable":"debug_pointer_location",
+		"action":"ASSIST",
+		"target":""
 	},
 	{
-		"title":"严格模式",
-		"drawable":"R.drawable.debug_strict_mode"
+		"title":"tool_debug_strict_mode",
+		"drawable":"debug_strict_mode",
+		"action":"ASSIST",
+		"target":""
 	},
 	{
-		"title":"不保留活动",
-		"drawable":"R.drawable.debug_dont_keep_activities"
+		"title":"tool_debug_dont_keep_activities",
+		"drawable":"debug_dont_keep_activities",
+		"action":"ASSIST",
+		"target":""
 	},
 	{
-		"title":"不锁定屏幕",
-		"drawable":"R.drawable.debug_stay_awake"
+		"title":"tool_debug_stay_awake",
+		"drawable":"debug_stay_awake",
+		"action":"ASSIST",
+		"target":""
 	},
 	{
-		"title":"开发者选项",
-		"drawable":"R.drawable.debug_dev_options"
+		"title":"tool_debug_usb_debugging",
+		"drawable":"debug_usb_debugging",
+		"action":"ASSIST",
+		"target":""
 	},
 	{
-		"title":"系统设置",
-		"drawable":"R.drawable.debug_settings"
+		"title":"tool_debug_dev_options",
+		"drawable":"debug_dev_options",
+		"action":"OPEN_ACTIVITY",
+		"target":"android.settings.APPLICATION_DEVELOPMENT_SETTINGS"
 	},
 	{
-		"title":"语言设置",
-		"drawable":"R.drawable.debug_locale_settings"
+		"title":"tool_debug_settings",
+		"drawable":"debug_settings",
+		"action":"OPEN_ACTIVITY",
+		"target":"android.settings.SETTINGS"
 	},
 	{
-		"title":"USB调试",
-		"drawable":"R.drawable.debug_usb_debugging"
+		"title":"tool_debug_locale_settings",
+		"drawable":"debug_locale_settings",
+		"action":"OPEN_ACTIVITY",
+		"target":"android.settings.LOCALE_SETTINGS"
 	},
 	{
-		"title":"UI 相关"
+		"title":"tool_group_ui"
 	},
 	{
-		"title":"屏幕信息",
-		"drawable":"R.drawable.ui_screen_info"
+		"title":"tool_ui_screen_info",
+		"drawable":"ui_screen_info",
+		"action":"",
+		"target":""
 	},
 	{
-		"title":"标准尺寸",
-		"drawable":"R.drawable.ui_standard_size"
+		"title":"tool_ui_standard_size",
+		"drawable":"ui_standard_size",
+		"action":"",
+		"target":""
 	},
 	{
-		"title":"信息"
+		"title":"tool_group_info"
 	},
 	{
-		"title":"系统",
-		"drawable":"R.drawable.info_system"
+		"title":"tool_info_system",
+		"drawable":"info_system",
+		"action":"",
+		"target":""
 	},
 	{
-		"title":"硬件",
-		"drawable":"R.drawable.info_hardware"
+		"title":"tool_info_hardware",
+		"drawable":"info_hardware",
+		"action":"",
+		"target":""
 	},
 	{
-		"title":"虚拟机",
-		"drawable":"R.drawable.info_vm"
+		"title":"tool_info_vm",
+		"drawable":"info_vm",
+		"action":"",
+		"target":""
 	},
 	{
-		"title":"网络相关",
-		"drawable":"R.drawable.info_network"
+		"title":"tool_info_network",
+		"drawable":"info_network",
+		"action":"",
+		"target":""
 	},
 	{
-		"title":"那些ID",
-		"drawable":"R.drawable.info_id"
+		"title":"tool_info_id",
+		"drawable":"info_id",
+		"action":"",
+		"target":""
 	},
 	{
-		"title":"CPU",
-		"drawable":"R.drawable.info_cpu"
+		"title":"tool_info_cpu",
+		"drawable":"info_cpu",
+		"action":"",
+		"target":""
 	},
 	{
-		"title":"我的应用",
-		"drawable":"R.drawable.info_my_apps"
-	},
-
+		"title":"tool_info_my_apps",
+		"drawable":"info_my_apps",
+		"action":"",
+		"target":""
+	}
 ]
